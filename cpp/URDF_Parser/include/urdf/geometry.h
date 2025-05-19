@@ -9,7 +9,7 @@
 namespace urdf {
 
 	enum GeometryType {
-		SPHERE,
+		SPHERE = 0,
 		BOX,
 		CYLINDER,
         CAPSULE,
