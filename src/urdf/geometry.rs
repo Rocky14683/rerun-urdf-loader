@@ -54,6 +54,12 @@ pub enum GeometryType {
     Mesh = 4,
 }
 
+#[derive(Debug, Clone)]
+pub struct VisualInfo {
+    pub link_name: String,
+    pub geometry_type: GeometryType,
+}
+
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
 pub struct Sphere {
